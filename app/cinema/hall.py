@@ -13,13 +13,8 @@ class CinemaHall:
             cleaning_staff: Cleaner
     ) -> None:
         print(
-<<<<<<< HEAD
             f'"{movie_name}" started in hall number'
             f"{self.number}."
-=======
-            f'"{movie_name}" started in hall number '
-            f'{self.number}.'
->>>>>>> 344d963d16a1f1c79ef1449dc4c096819df747fd
         )
 
         for customer in customers:
